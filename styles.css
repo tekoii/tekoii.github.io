@@ -1,0 +1,84 @@
+.bg_tk {
+	color: white;
+	background-image: url('tekoii_banner_extr.png');
+	background-image: no-repeat;
+    background-size: cover;
+    font-family: Righteous;
+}
+.bg_yt {
+	color: white;
+	background-image: url('tekoii_banner_vert.png');
+	background-image: no-repeat;
+    background-size: cover;
+    font-family: Righteous;
+}
+.bg_da {
+	color: white;
+	background-image: url('tekoii_banner_horz.png');
+	background-image: no-repeat;
+    background-size: cover;
+    font-family: Righteous;
+}
+#in_head {
+	text-shadow: 2px 2px black;
+    animation: tk_move .2s infinite;
+	font-family: Righteous; 
+}
+#yt_head {
+	text-shadow: 2px 2px black;
+	animation: yt_move .2s infinite;
+	font-family: Righteous; 
+}
+#da_head {
+	text-shadow: 2px 2px black;
+	animation: da_move .2s infinite;
+	font-family: Righteous; 
+}
+@font-face {
+	font-family: Righteous; src: url('Righteous-Regular.ttf');
+}		
+@keyframes tk_move {
+  	from {color: white;}
+  	to {color: #FFFF8A;}
+}
+@keyframes da_move {
+  	from {color: white;}
+  	to {color: #77DD77;}
+}
+@keyframes yt_move {
+  	from {color: white;}
+  	to {color: red;}
+}
+@keyframes fb_move {
+  	from {color: white;}
+  	to {color: #0476D0;}
+}
+a#tk_link:visited { 
+	color: white;
+}
+a#tk_link:hover{ 
+	animation: tk_move .2s infinite;
+	text-decoration: none;
+}
+a#yt_link:visited { 
+	color: white;
+}
+a#yt_link:hover{ 
+	animation: yt_move .2s infinite;
+	text-decoration: none;
+}
+a#da_link:visited { 
+	color: white;
+}
+a#da_link:hover{ 
+	animation: da_move .2s infinite;
+	text-decoration: none;
+}
+a#fb_link:visited { 
+	color: white;
+}
+a#fb_link:hover{ 
+	animation: fb_move .2s infinite;
+	text-decoration: none;
+}
+
