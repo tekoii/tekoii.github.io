@@ -4,6 +4,35 @@
 	<meta charset="utf-8">
 	<title>tekoii</title>
 	<link rel="stylesheet" type="text/css" href="styles.css">
+	<style type="text/css">
+		ul {
+  			list-style-type: none;
+  			margin: 0;
+  			padding: 0;
+  			overflow: hidden;
+  			background-color: rgba(0,0,0,.5);
+		}
+		li {
+ 			 float: left;
+		}
+		li a {
+  			display: block;
+  			padding: 10px;
+		}
+		#text_yt {
+			color: red;
+		}
+		#text_da {
+			color: #77DD77;
+		}
+		#text_tk {
+			color: #FFFF8A;
+		}
+		#text_fb{
+			color: #0476D0;
+		}
+	</style>
+	
 </head>
 
 <body class="bg_tk">
@@ -14,17 +43,45 @@
 	</a>
 
 	<!--Nav-->
-	&#10024;
-    <a id="tk_link" href="index.html">tekoii</a>
-    &#9654;&#65039;
-	<a id="yt_link" href="youtube.html">youtube</a>
-	&#127912;
-	<a id="da_link" href="deviantart.html">deviant art</a>
-	&#128172;
-	<a id="fb_link" href="https://www.facebook.com/tekoiiyt">facebook</a><br><br>
+	<nav>
+		<ul>
+    		<li><a id="tk_link" href="index.html">tekoii</a></li>
+			<li><a id="yt_link" href="youtube.html">youtube</a></li>
+			<li><a id="da_link" href="deviantart.html">deviant art</a></li>
+			<li><a id="fb_link" href="https://www.facebook.com/tekoiiyt">facebook</a></li>
+		</ul>
+	</nav>
 
- 	&#10024;
-	<em><span>Welcome to my page!</span></em>
+	<!--Text-->
+	<span id="text_tk">Welcome</span> 
+	<span> to </span> 
+	<span id="in_head"> tekoii.com</span> 
+	<span>!</span>
+
+	<br><br>
+
+	<span>I make content on</span> 
+	<span id="yt_head">youtube</span>
+	<span> and </span>
+	<span id="da_head">deviant art</span> 
+	<span>.</span>
+
+	<br><br>
+
+	<span>I</span>
+	<span id="text_yt"> livestream </span>
+	<span id="text_da">games</span>
+	<span> for </span> 
+	<span id="text_tk">Switch</span>
+	<span> and </span>
+	<span id="text_fb">PC</span>
+	<span>.</span>
+
+	<br><br>
+
+	<script src="https://apis.google.com/js/platform.js"></script>
+
+<div class="g-ytsubscribe" data-channel="tekoii" data-layout="default" data-count="default"></div>
 
 
 </body>

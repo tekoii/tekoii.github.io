@@ -6,6 +6,34 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 <style>
 
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(0,0,0,.5);
+    }
+    li {
+       float: left;
+    }
+    li a {
+        display: block;
+        padding: 10px;
+    }
+
+    #text_yt {
+      color: red;
+    }
+    #text_da {
+      color: #77DD77;
+    }
+    #text_tk {
+      color: #FFFF8A;
+    }
+    #text_fb{
+      color: #0476D0;
+    }
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 504px;
@@ -77,25 +105,33 @@
 	</a>
 
 	<!--Nav-->
-	&#10024;
-    <a id="tk_link" href="index.html">tekoii</a>
-    &#9654;&#65039;
-	<a id="yt_link" href="youtube.html">youtube</a>
-	&#127912;
-	<a id="da_link" href="deviantart.html">deviant art</a>
-	&#128172;
-	<a id="fb_link" href="https://www.facebook.com/tekoiiyt">facebook</a>
+	<nav>
+    <ul>
+        <li><a id="tk_link" href="index.html">tekoii</a></li>
+      <li><a id="yt_link" href="youtube.html">youtube</a></li>
+      <li><a id="da_link" href="deviantart.html">deviant art</a></li>
+      <li><a id="fb_link" href="https://www.facebook.com/tekoiiyt">facebook</a></li>
+    </ul>
+  </nav>
 
-	<br><br>
-	
 	<!--Text-->
-	&#127912;
-	<em><span>Watch me on</span></em>
+	<span id="da_head">Watch</span> 
+  <span>me on</span>
 	<a id="da_link" href=https://www.deviantart.com/tekoiiyt>deviant art</a>
 	<span>.</span> 
-	<span>Enjoy my animated box-arts!</span>
+	<span>I make digital art,</span> 
+  <span id="text_da">digital drawings</span> 
+  <span>to</span> 
+  <span id="da_head">animated box-arts</span>
+  <span>.</span>
 
-	<br><br>
+  <br><br>
+
+  <span>You can download and use my box-art on your Steam Library.</span> 
+
+  <br>
+
+	<br>
 
 	<!--Embeds | Links-->
 	
@@ -348,6 +384,13 @@ function showSlides(n) {
  
 }
 </script>
+
+<br><br><br><br><br><br><br><br>
+
+<span id="text_da">Download</span>
+<span> and </span>  
+<span id="da_head">Rename</span> 
+<span>( .gif to .png ) to use the box-art on your Steam Library.</span>
 
 </body>
 </html>

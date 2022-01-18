@@ -6,6 +6,34 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 <style>
 
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(0,0,0,.5);
+    }
+    li {
+       float: left;
+    }
+    li a {
+        display: block;
+        padding: 10px;
+    }
+
+    #text_yt {
+      color: red;
+    }
+    #text_da {
+      color: #77DD77;
+    }
+    #text_tk {
+      color: #FFFF8A;
+    }
+    #text_fb{
+      color: #0476D0;
+    }
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 504px;
@@ -76,25 +104,29 @@
 	</a>
 	
 	<!--Nav-->
-	&#10024;
-    <a id="tk_link" href="index.html">tekoii</a>
-    &#9654;&#65039;
-	<a id="yt_link" href="youtube.html">youtube</a>
-	&#127912;
-	<a id="da_link" href="deviantart.html">deviant art</a>
-	&#128172;
-	<a id="fb_link" href="https://www.facebook.com/tekoiiyt">facebook</a>
-
-	<br><br>
+	<nav>
+    <ul>
+      <li><a id="tk_link" href="index.html">tekoii</a></li>
+      <li><a id="yt_link" href="youtube.html">youtube</a></li>
+      <li><a id="da_link" href="deviantart.html">deviant art</a></li>
+      <li><a id="fb_link" href="https://www.facebook.com/tekoiiyt">facebook</a></li>
+    </ul>
+  </nav>
 	
 	<!--Text-->
-	&#9654;&#65039;
-	<em><span>Subscribe to my</span></em>&nbsp;
-	<a id="yt_link" href=https://www.youtube.com/c/tekoii?sub_confirmation=1>youtube</a>
-	<span>. I appreciate your support!</span>
+	<span id="yt_head">Subscribe</span> 
+  <span>to my</span>
+	<a id="yt_link" href=https://www.youtube.com/tekoii>youtube</a>
+	<span>.</span><span id="yt_head"> Thank you for your support!</span>
 	&#10084;&#65039;
 
   <br><br>
+
+  <span id="text_yt">Playlists:</span>
+
+    <script src="https://apis.google.com/js/platform.js"></script>
+
+      <div class="g-ytsubscribe" data-channel="tekoii" data-layout="full" data-count="default"></div>
 
 <div class="slideshow-container">
 
@@ -130,6 +162,7 @@
 <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </div>
+
 <br>
 
 <!--functions-->
@@ -157,6 +190,10 @@ function showSlides(n) {
  
 }
 </script>
-	
+
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+  <span>Join our community and chill with us in our livestream!</span>
+
 </body>
 </html>
