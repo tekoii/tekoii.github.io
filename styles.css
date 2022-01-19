@@ -57,6 +57,9 @@
   	to {color: #0476D0;}
 }
 /*tk-links*/
+a#tk_link:link { 
+	color: #FFFF8A;
+}
 a#tk_link:visited { 
 	color: white;
 }
@@ -65,9 +68,12 @@ a#tk_link:hover{
 	text-decoration: none;
 }
 a#tk_link:active {
-  color: #FFFF8A;
+  color: white;
 }
 /*yt-links*/
+a#yt_link:link { 
+	color: red;
+}
 a#yt_link:visited { 
 	color: white;
 }
@@ -76,9 +82,12 @@ a#yt_link:hover{
 	text-decoration: none;
 }
 a#yt_link:active {
-  color: red;
+  color: white;
 }
 /*da-links*/
+a#da_link:link { 
+	color: #77DD77;
+}
 a#da_link:visited { 
 	color: white;
 }
@@ -87,9 +96,12 @@ a#da_link:hover{
 	text-decoration: none;
 }
 a#da_link:active {
-  color: #77DD77;
+  color: white;
 }
 /*fb-links*/
+a#fb_link:link { 
+	color: #0476D0;
+}
 a#fb_link:visited { 
 	color: white;
 }
@@ -98,5 +110,5 @@ a#fb_link:hover{
 	text-decoration: none;
 }
 a#fb_link:active {
-  color: #0476D0;
+  color: white;
 }
