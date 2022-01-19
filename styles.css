@@ -58,7 +58,7 @@
 }
 /*tk-links*/
 a#tk_link:link { 
-	color: #FFFF8A;
+	color: white;
 }
 a#tk_link:visited { 
 	color: white;
@@ -68,11 +68,11 @@ a#tk_link:hover{
 	text-decoration: none;
 }
 a#tk_link:active {
-  color: white;
+  color: #FFFF8A;
 }
 /*yt-links*/
 a#yt_link:link { 
-	color: red;
+	color: white;
 }
 a#yt_link:visited { 
 	color: white;
@@ -82,11 +82,11 @@ a#yt_link:hover{
 	text-decoration: none;
 }
 a#yt_link:active {
-  color: white;
+  color: red;
 }
 /*da-links*/
 a#da_link:link { 
-	color: #77DD77;
+	color: white;
 }
 a#da_link:visited { 
 	color: white;
@@ -96,11 +96,11 @@ a#da_link:hover{
 	text-decoration: none;
 }
 a#da_link:active {
-  color: white;
+  color: #77DD77;
 }
 /*fb-links*/
 a#fb_link:link { 
-	color: #0476D0;
+	color: white;
 }
 a#fb_link:visited { 
 	color: white;
@@ -110,5 +110,5 @@ a#fb_link:hover{
 	text-decoration: none;
 }
 a#fb_link:active {
-  color: white;
+  color: #0476D0;
 }
