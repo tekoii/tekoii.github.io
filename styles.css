@@ -11,21 +11,21 @@ body {
 /*backgrounds*/
 .bg_tk {
 	color: white;
-	background-color: #827500;
+	background: url("tekoii_banner.png");
   background-size: cover;
   font-family: Righteous;
 }
 .bg_yt {
 	color: white;
 	background-color: #ff8585;
-	background-image: no-repeat;
+	background: url("mario.png") repeat-y;
     background-size: cover;
     font-family: Righteous;
 }
 .bg_da {
 	color: white;
 	background-color: #5abf64;
-	background-image: no-repeat;
+	background: url("luigi_art.png") repeat-y;
     background-size: cover;
     font-family: Righteous;
 }
