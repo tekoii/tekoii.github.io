@@ -11,7 +11,7 @@ body {
 /*backgrounds*/
 .bg_tk {
 	color: white;
-	background: url("tekoii_banner.png");
+	background: url("tekoii_banner.png") repeat-y;
   background-size: cover;
   font-family: Righteous;
 }
