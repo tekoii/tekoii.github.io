@@ -24,15 +24,6 @@ body {
     font-family: Righteous;
  	} 
 }
-@media screen and (max-width: 768px) {
- 	.bg_tk {
- 	color: white;
-	background-color: #ff8585;
-	background: url("tekoii_banner_tab.png") repeat-y;
-    background-size: cover;
-    font-family: Righteous;
- 	} 
-}
 .bg_yt {
 	color: white;
 	background-color: #ff8585;
@@ -49,15 +40,6 @@ body {
     font-family: Righteous;
  	} 
 }
-@media screen and (max-width: 768px) {
- 	.bg_yt {
- 	color: white;
-	background-color: #ff8585;
-	background: url("mario_tab.png") repeat-y;
-    background-size: cover;
-    font-family: Righteous;
- 	} 
-}
 .bg_da {
 	color: white;
 	background-color: #5abf64;
@@ -70,15 +52,6 @@ body {
  	color: white;
 	background-color: #5abf64;
 	background: url("luigi_art_vert.png") repeat-y;
-  background-size: cover;
-  font-family: Righteous;
- 	} 
-}
-@media screen and (max-width: 768px) {
- 	.bg_da {
- 	color: white;
-	background-color: #5abf64;
-	background: url("luigi_art_tab.png") repeat-y;
   background-size: cover;
   font-family: Righteous;
  	} 
