@@ -10,7 +10,7 @@ body {
 }
 /*backgrounds*/
 .bg_tk {
-	color: black;
+	background-color: #FFF0F5;
   background-size: cover;
   font-family: Righteous;
 }
