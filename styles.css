@@ -17,7 +17,7 @@ body {
 @media screen and (max-width: 640px) {
  	.bg_tk {
  	color: white;
-	background-color: #ff8585;
+	background-color: black;
 	background: url("tekoii_banner_vert.png") repeat-y;
     background-size: cover;
     font-family: Righteous;
