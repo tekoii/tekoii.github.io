@@ -17,8 +17,7 @@ body {
 @media screen and (max-width: 640px) {
  	.bg_tk {
  	color: white;
-	background-color: black;
-	background: url("tekoii_banner_vert.png") repeat-y;
+	background-color: #000000;
     background-size: cover;
     font-family: Righteous;
  	} 
@@ -42,18 +41,7 @@ body {
   	from {color: white;}
   	to {color: #FFFF8A;}
 }
-@keyframes da_move {
-  	from {color: white;}
-  	to {color: #77DD77;}
-}
-@keyframes yt_move {
-  	from {color: white;}
-  	to {color: red;}
-}
-@keyframes fb_move {
-  	from {color: white;}
-  	to {color: #0476D0;}
-}
+
 /*tk-links*/
 a#tk_link:link { 
 	color: white;
