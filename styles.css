@@ -42,20 +42,4 @@ body {
   	to {color: #FFFF8A;}
 }
 
-/*tk-links*/
-a#tk_link:link { 
-	color: white;
-}
-a#tk_link:visited { 
-	color: white;
-}
-a#tk_link:hover{ 
-	animation: tk_move .2s infinite;
-	text-decoration: none;
-}
-a#tk_link:active {
-  color: #FFFF8A;
-}
-.paragraph {
-	margin: .7rem;
-}
+
